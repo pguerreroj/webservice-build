@@ -11,4 +11,4 @@ ADD web.tgz /var/www/html/
 
 ENTRYPOINT [ "/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]
 #CMD [ "8.8.8.8" ]
-#EXPOSE        80
+EXPOSE        9090
